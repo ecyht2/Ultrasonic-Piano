@@ -2,9 +2,6 @@
 
 name: Arduino Lint
 
-env:
-  GITHUB_WORKSPACE: /home/runner/work/Ultrasonic_piano
-
 # Controls when the workflow will run
 on: 
   [push, pull_request]
@@ -21,6 +18,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - run: |
-          cd ~/
           tree
       - uses: arduino/arduino-lint-action@v1.0.1
