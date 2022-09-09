@@ -2,6 +2,8 @@
 
 name: Arduino Lint
 
+GITHUB_WORKSPACE = "/home/runner/work/Ultrasonic_piano"
+
 # Controls when the workflow will run
 on: 
   [push, pull_request]
