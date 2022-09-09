@@ -3,7 +3,7 @@
 name: Arduino Lint
 
 env:
-  GITHUB_WORKSPACE = "/home/runner/work/Ultrasonic_piano"
+  GITHUB_WORKSPACE = /home/runner/work/Ultrasonic_piano
 
 # Controls when the workflow will run
 on: 
