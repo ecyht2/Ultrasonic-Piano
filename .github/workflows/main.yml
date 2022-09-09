@@ -17,6 +17,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - run: |
-          tree
+      - name: Reanaming File
+        run: mv Ultrasonic_piano.ino Ultrasonic-Piano.ino
       - uses: arduino/arduino-lint-action@v1.0.1
