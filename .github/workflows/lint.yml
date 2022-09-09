@@ -19,4 +19,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Reanaming File
         run: mv Ultrasonic_piano.ino Ultrasonic-Piano.ino
-      - uses: arduino/arduino-lint-action@v1.0.1
+      - name: Linting
+        uses: arduino/arduino-lint-action@v1.0.1
